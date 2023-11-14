@@ -380,7 +380,7 @@ input, textarea{
     padding: 10px;
     border-radius: 5px;
     border:none;
-    color: white;
+    color: black;
 }
 input:focus
 textarea:focus{
