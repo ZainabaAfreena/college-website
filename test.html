@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* body {
+
+}
+body{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    background-image: url('images/astrix1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+   background-size: cover;
+   background-position: 90%;
+  
+
+
+  background: url(images/fest.jpeg) no-repeat  red;
+} */
+
+/* .fest{ */
+    /* width: 200px;
+    min-height: 200px; */
+    /* background-color: red; */
+/* } */
+.fest{
+    border-radius: 10px;
+}
+.fest img{
+   /* background-size: cover; */
+   /* position: absolute; */
+min-width: 60%;
+   height: 200px;
+   background: #000;
+   border-radius: 10px;
+   outline: 2px solid black;
+transition: all .5s ease-in-out;
+filter: grayscale();
+  /* background: url(images/fest.jpeg) no-repeat  red; */
+}
+.fest img:hover{
+    outline-offset: 2px;
+    filter: none;
+    /* box-shadow:  2px 2px 2px red */
+}
+.event{
+    display: flex;
+    gap: 10px;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+.mydiv{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    background: url(images/fest.jpeg) no-repeat  red;
+}
+    </style>
+</head>
+<body>
+    <div class="mydiv">
+
+    </div>
+    
+    <h1>Events</h1>
+    <div class="event">
+
+
+        <div class="fest">
+            <img src="images/astrix1.jpeg" alt="">
+        </div><br>
+        <div class="fest">
+            <img src="images/astrix2.jpeg" alt="">
+        </div>
+        <div class="fest">
+            <img src="images/astrix3.jpeg" alt="">
+        </div>
+        <div class="fest">
+            <img src="images/bike1.jpeg" alt="">
+        </div>
+        <div class="fest">
+            <img src="images/holy.jpeg" alt="">
+        </div>
+        <div class="fest">
+            <img src="images/papl1.jpeg" alt="">
+        </div>
+        <div class="fest">
+            <img src="images/papl2.jpeg" alt="">
+        </div>
+    </div>
+    </body>
+
+</html>
